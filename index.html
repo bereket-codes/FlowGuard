@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlowGuard — Every dollar has a job</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ============================================= -->
+  <!-- SCREEN 0: LANDING PAGE -->
+  <!-- ============================================= -->
+  <div id="screen-landing" class="screen active">
+    <!-- NAV -->
+    <nav class="nav">
+      <div class="nav-inner">
+        <span class="logo">FlowGuard</span>
+        <div class="nav-actions">
+          <button class="theme-toggle" id="theme-toggle-landing" title="Toggle theme">
+            <span class="theme-icon" id="theme-icon-landing">🌙</span>
+          </button>
+          <button class="nav-btn" id="btn-nav-start">Get Started</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-badge">💡 Behavioral Finance</div>
+        <h1 class="hero-title">Every dollar <span class="highlight">has a job</span> before you can waste it</h1>
+        <p class="hero-desc">
+          The moment your salary hits your account, FlowGuard asks you to allocate it to what matters. 
+          No more "where did my money go?" — just intentional spending, one paycheck at a time.
+        </p>
+        
+        <div class="hero-steps">
+          <div class="step">
+            <div class="step-icon">1</div>
+            <div class="step-text">
+              <strong>Enter your income</strong>
+              <span>Tell us what you earn monthly</span>
+            </div>
+          </div>
+          <div class="step-line"></div>
+          <div class="step">
+            <div class="step-icon">2</div>
+            <div class="step-text">
+              <strong>Pick a plan</strong>
+              <span>50/30/20, 60/20/20, or build your own</span>
+            </div>
+          </div>
+          <div class="step-line"></div>
+          <div class="step">
+            <div class="step-icon">3</div>
+            <div class="step-text">
+              <strong>Lock it in</strong>
+              <span>Every dollar allocated, nothing left to chance</span>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn-hero" id="btn-hero-start">Start Allocating →</button>
+        <p class="hero-footnote">Free. No account needed. Takes 60 seconds.</p>
+      </div>
+      
+      <div class="hero-visual">
+        <div class="phone-mockup">
+          <div class="phone-screen">
+            <div class="mock-notification">
+              <div class="mock-notif-icon">💰</div>
+              <div class="mock-notif-text">
+                <div class="mock-notif-title">Income Received</div>
+                <div class="mock-notif-amount">$3,200.00</div>
+              </div>
+            </div>
+            <div class="mock-card">
+              <div class="mock-card-row">
+                <span>Bills & Essentials</span>
+                <span class="mock-green">$1,600</span>
+              </div>
+              <div class="mock-card-row">
+                <span>Guilt-Free Spending</span>
+                <span class="mock-yellow">$960</span>
+              </div>
+              <div class="mock-card-row">
+                <span>Savings & Debt</span>
+                <span class="mock-blue">$640</span>
+              </div>
+            </div>
+            <div class="mock-btn">Lock Allocation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="about">
+      <div class="section-inner">
+        <h2 class="section-title">About FlowGuard</h2>
+        <p class="section-desc">
+          FlowGuard was built on a simple observation: most people don't struggle to <em>earn</em> money — they struggle to <em>direct</em> it the moment it arrives. 
+          The gap between receiving income and spending it carelessly is where financial health is won or lost.
+        </p>
+        <p class="section-desc">
+          We don't track what you already spent. We help you decide what to do <strong>before</strong> you spend it. 
+          Every dollar gets a job. Every category gets intention. That's the FlowGuard promise.
+        </p>
+        <div class="about-values">
+          <div class="about-value">
+            <div class="about-value-icon">🎯</div>
+            <strong>Intentional</strong>
+            <span>Proactive allocation, not reactive tracking</span>
+          </div>
+          <div class="about-value">
+            <div class="about-value-icon">⚡</div>
+            <strong>Minimal</strong>
+            <span>60 seconds. No accounts. No clutter.</span>
+          </div>
+          <div class="about-value">
+            <div class="about-value-icon">🔒</div>
+            <strong>Private</strong>
+            <span>Your data stays in your browser</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+      <div class="section-inner">
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-desc">
+          Have feedback, ideas, or want to collaborate? I'd love to hear from you.
+        </p>
+        <div class="contact-links">
+          <a href="https://t.me/Bk_tad" target="_blank" rel="noopener noreferrer" class="contact-card telegram">
+            <span class="contact-icon">✈️</span>
+            <div class="contact-info">
+              <strong>Telegram</strong>
+              <span>@Bk_tad</span>
+            </div>
+            <span class="contact-arrow">→</span>
+          </a>
+        </div>
+        <p class="contact-response">I typically respond within a few hours. Don't hesitate to reach out.</p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <span>© 2026 FlowGuard. Built with intention.</span>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ============================================= -->
+  <!-- SCREEN 1: SALARY INPUT -->
+  <!-- ============================================= -->
+  <div id="screen-salary" class="screen">
+    <div class="app">
+      <header class="app-header">
+        <h1>FlowGuard</h1>
+        <p class="tagline">Every dollar has a job</p>
+      </header>
+
+      <div class="onboarding-card">
+        <div class="onboard-icon">💸</div>
+        <h2>What's your monthly income?</h2>
+        <p class="onboard-subtitle">We'll help you allocate it before you can waste it.</p>
+        
+        <form id="salary-form" class="salary-form">
+          <div class="input-wrapper">
+            <span class="currency-symbol">$</span>
+            <input
+              type="number"
+              id="salary-input"
+              class="salary-input"
+              placeholder="0"
+              min="1"
+              step="1"
+              required
+              autofocus
+            />
+          </div>
+          <button type="submit" class="btn-primary">Continue →</button>
+        </form>
+
+        <button class="btn-back" id="btn-back-to-landing">← Back</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================= -->
+  <!-- SCREEN 2: PLAN SELECTION -->
+  <!-- ============================================= -->
+  <div id="screen-plan" class="screen">
+    <div class="app">
+      <header class="app-header">
+        <h1>FlowGuard</h1>
+        <p class="tagline">Every dollar has a job</p>
+      </header>
+
+      <div class="onboarding-card">
+        <div class="onboard-icon">📋</div>
+        <h2>Choose your allocation plan</h2>
+        <p class="onboard-subtitle">Monthly income: <strong id="plan-salary-display"></strong></p>
+        <p class="onboard-hint">You can adjust every category on the next screen.</p>
+
+        <div class="plan-options" id="plan-options">
+          <!-- Injected by JS -->
+        </div>
+
+        <button class="btn-back" id="btn-back-to-salary">← Back</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================= -->
+  <!-- SCREEN 3: ALLOCATION -->
+  <!-- ============================================= -->
+  <div id="screen-allocate" class="screen">
+    <div class="app">
+      <header class="app-header">
+        <h1>FlowGuard</h1>
+        <p class="tagline">Adjust & confirm your allocation</p>
+      </header>
+
+      <div class="allocation-card-full">
+        <div class="card-header">
+          <h2 class="income-amount" id="allocate-salary-display"></h2>
+          <p class="subtitle">Monthly Income</p>
+        </div>
+
+        <div class="allocations-list" id="allocations-list">
+          <!-- Injected by JS -->
+        </div>
+
+        <div class="remaining" id="remaining-box">
+          <span>Remaining to allocate:</span>
+          <span class="remaining-amount" id="remaining-amount"></span>
+          <span class="remaining-hint" id="remaining-hint"></span>
+        </div>
+
+        <div class="card-actions">
+          <button class="btn-snooze" id="btn-back-to-plan">← Back</button>
+          <button class="btn-confirm" id="btn-confirm" disabled>Lock Allocation</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================= -->
+  <!-- SCREEN 4: ENCOURAGEMENT (POST-ALLOCATION) -->
+  <!-- ============================================= -->
+  <div id="screen-encourage" class="screen">
+    <div class="app">
+      <div class="encourage-card">
+        <div class="encourage-icon" id="encourage-icon">🌟</div>
+        <h2 class="encourage-title" id="encourage-title"></h2>
+        <p class="encourage-body" id="encourage-body"></p>
+        <button class="btn-primary" id="btn-to-dashboard">See Your Dashboard →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================= -->
+  <!-- SCREEN 5: DASHBOARD (POST-ALLOCATION) -->
+  <!-- ============================================= -->
+  <div id="screen-dashboard" class="screen">
+    <nav class="nav">
+      <div class="nav-inner">
+        <span class="logo">FlowGuard</span>
+        <div class="nav-actions">
+          <button class="theme-toggle" id="theme-toggle-dash" title="Toggle theme">
+            <span class="theme-icon" id="theme-icon-dash">🌙</span>
+          </button>
+          <button class="nav-btn" id="btn-dash-new">New Allocation</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="app">
+      <div class="dashboard">
+        <div class="dash-header">
+          <div class="dash-greeting" id="dash-greeting"></div>
+          <p class="dash-subtitle" id="dash-subtitle"></p>
+          <h2 class="dash-income">Monthly Income: <span id="dash-salary"></span></h2>
+        </div>
+
+        <div class="dash-card">
+          <h3 class="dash-section-title">Your Active Plan</h3>
+          <div class="dash-bar" id="dash-bar">
+            <!-- Injected by JS -->
+          </div>
+          <div class="dash-categories" id="dash-categories">
+            <!-- Injected by JS -->
+          </div>
+        </div>
+
+        <div class="dash-card">
+          <h3 class="dash-section-title">Quick Summary</h3>
+          <div class="dash-stats" id="dash-stats">
+            <!-- Injected by JS -->
+          </div>
+        </div>
+
+        <p class="dash-footnote">✅ You're covered for the next 30 days. Every dollar has a job.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
