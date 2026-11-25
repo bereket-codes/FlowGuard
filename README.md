@@ -43,12 +43,14 @@ style.css     layout, theme tokens
 
 ## Known limitation
 
-The plan lives in the browser. Clearing site data — or opening the app on another device — loses it. That is exactly why the next version adds real accounts.
+The plan lives in the browser. Clearing site data — or opening the app on another device — loses it. That is exactly why real accounts are on the roadmap.
 
 ## Roadmap
 
-- Rebuild as a full-stack app: Next.js + TypeScript frontend, Express/Nest API, PostgreSQL, real authentication so a plan follows you across devices.
-- Wrap the category updates in a database transaction so a split can never be saved half-applied.
+HabeshaCart goes full-stack first; FlowGuard follows.
+
+- Real accounts and a database, so a plan follows you across devices instead of living in one browser.
+- Category updates wrapped in a database transaction, so a split can never be saved half-applied.
 
 ## License
 
